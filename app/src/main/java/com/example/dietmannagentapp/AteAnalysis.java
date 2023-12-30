@@ -46,17 +46,17 @@ public class AteAnalysis extends AppCompatActivity {
     }
 
     private Cursor getAnalyzeCursor() {
-        Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.DAY_OF_MONTH, -30);
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.DAY_OF_MONTH, -30);
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-M-d", Locale.getDefault());
 
         ArrayList<Long> dateBasedIds = new ArrayList<>();
         for (int i = 0; i <= 30; i++) {
-            String dateString = dateFormat.format(cal.getTime());
+            String dateString = dateFormat.format(calendar.getTime());
             List<Long> dietIds = getDietIdsFromDate(dateString);
             dateBasedIds.addAll(dietIds);
-            cal.add(Calendar.DAY_OF_MONTH, 1);
+            calendar.add(Calendar.DAY_OF_MONTH, 1);
         }
 
         StringBuilder selectionBuilder = new StringBuilder("_id IN (");
