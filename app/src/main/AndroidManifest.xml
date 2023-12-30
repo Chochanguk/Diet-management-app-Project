@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DietMannagentApp"
+        tools:targetApi="31" >
+        <activity
+            android:name=".AteCalendarForShowing"
+            android:exported="false" />
+        <activity
+            android:name=".AteAnalysis"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar"
+            android:exported="false" />
+        <activity
+            android:name=".Calenar"
+            android:exported="false" />
+        <activity
+            android:name=".DietInformation"
+            android:exported="false" />
+        <activity
+            android:name=".AteShowing"
+            android:exported="false" />
+        <activity
+            android:name=".Time"
+            android:exported="false" />
+        <activity
+            android:name=".Calender"
+            android:exported="false" />
+        <activity
+            android:name=".AteInputDiet"
+            android:exported="false" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.example.dietmannagentapp.MyContentProvider"
+            android:enabled="true"
+            android:exported="true" >
+            <grant-uri-permission android:pathPattern="/diets" />
+        </provider>
+
+        <activity
+            android:name=".FirthFloor"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayDietEnter"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DietMannagentApp</string>
+    <string name="DietEntetButton">식사입력하기</string>
+    <string name="FirthFloor">상록원1층</string>
+    <string name="SecondFloor">상록원2층</string>
+    <string name="ThirdFloor">상록원3층</string>
+    <string name="DormitoryRestaurant">기숙사식당</string>
+    <string name="Time">식사 시각</string>
+    <string name="Put_food">음식입력</string>
+    <string name="Put_review">리뷰</string>
+    <string name="Cost">비용 입력</string>
+    <string name="Save_diet">식단 저장하기</string>
+    <string name="Put_food_picture">음식사진입력</string>
+    <string name="Cal_button">날짜 입력</string>
+    <string name="time_enter_finish">시간입력완료</string>
+    <string name="AnalysisButton">식사분석하기</string>
+    <string name="DietMonthlyList">Diet Monthly List</string>
+    <string name="GoToList">Go To List</string>
+    <string name="Showing_diet">식단 보기</string>
+    <string name="Cal_text">\"yyyy-mm-dd\" 형식으로 입력해주세요</string>
+    <string name="Time_text">\"24시 00분\" 형식으로 입력해주세요</string>
+    <string name="AteDietCalendar">Diet Calendar</string>
+</resources>

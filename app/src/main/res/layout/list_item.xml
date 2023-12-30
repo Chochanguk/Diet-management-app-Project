@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#232323">
+
+        <TextView
+            android:id="@+id/DietListTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FAF5F5"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/restaurantTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Restaurant"
+            android:textColor="#FAF5F5"
+            android:textSize="15sp"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/dietNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Diet Name"
+            android:textColor="#FAF5F5"
+            android:textSize="15sp"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Date"
+            android:textColor="#FAF5F5"
+            android:textSize="15sp"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FAF5F5"
+            android:textAlignment="center"
+            android:text="Time"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</RelativeLayout>

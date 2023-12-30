@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Time">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#D50000">
+        <TextView
+            android:id="@+id/bingonggan2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/timeTextTitle"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+            android:text="시간 선택"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/timeicon3" />
+        <TextView
+            android:id="@+id/textSetTime"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="시간을 선택해주세요" />
+    </LinearLayout>
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:timePickerMode="spinner" />
+
+    <ImageButton
+        android:id="@+id/timeSet"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/timesetbutton" />
+
+</LinearLayout>
