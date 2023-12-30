@@ -28,7 +28,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-
+//식사 분석하기 액티비티
 public class AteAnalysis extends AppCompatActivity {
 
     private BarChart barChart;
@@ -46,17 +46,17 @@ public class AteAnalysis extends AppCompatActivity {
     }
 
     private Cursor getAnalyzeCursor() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DAY_OF_MONTH, -30);
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_MONTH, -30);
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-M-d", Locale.getDefault());
 
         ArrayList<Long> dateBasedIds = new ArrayList<>();
         for (int i = 0; i <= 30; i++) {
-            String dateString = dateFormat.format(calendar.getTime());
+            String dateString = dateFormat.format(cal.getTime());
             List<Long> dietIds = getDietIdsFromDate(dateString);
             dateBasedIds.addAll(dietIds);
-            calendar.add(Calendar.DAY_OF_MONTH, 1);
+            cal.add(Calendar.DAY_OF_MONTH, 1);
         }
 
         StringBuilder selectionBuilder = new StringBuilder("_id IN (");
