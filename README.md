@@ -20,8 +20,12 @@
 
 ## 식단 보여주기
 <div>
+ <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/ad0177a6-141b-4828-84ff-585001cfad14"/>
+ <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/082b2a2f-5e11-4d54-93ad-580bdccf97f4"/>
  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/fb4ad6a5-08f7-4be5-bd06-0f66ded03cbd"/>
-
 </div>
 
 ## 식단 분석하기
+<div>
+ <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/0274c780-b7e1-4406-8138-5529017351db"/>
+</div>
