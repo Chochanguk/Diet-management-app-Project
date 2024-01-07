@@ -8,6 +8,12 @@
 - 사용자는 식사한 학식장소 및 음식에 대한 정보를 입력합니다.
 - 입력한 정보들을 토대로 정보를 달력을 통해서 한눈에 보고, 리스트를 통해 자세한 정보를 얻습니다.
 - 식사 분석하기 기능을 통해 최근 한달간 사용자의 칼로리 및 식사비용을 조식,중식,석식,음료 별로 분석 해줍니다.
+  
+## 💻 개발 환경
+- IDE: Android Studio
+- 버전 관리 : Github
+- 언어: xml, java language
+- 디자인 : [Figma](https://www.figma.com/file/YdFEfrXlDCdXq8CbCL3lyd/Untitled?type=design&node-id=0-1&mode=design&t=lAR2CyrmJtbIJwu1-0)
 
 ## 🏫 앱 초기화면
 <div>
