@@ -1,4 +1,4 @@
-## 📱 Diet-management-app-Project 
+## 📱 Diet-management-Mobile-App README
 - 📹 모바일 앱 화면 명세서(영상): <strong style="font-size: 30px;">[Youtube LINK](https://youtu.be/jXrlabyKyJo)</strong>
 <br>
 
