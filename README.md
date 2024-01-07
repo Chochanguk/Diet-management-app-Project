@@ -11,12 +11,12 @@
   
 ## 식단 입력하기
 <div>
-  > <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/69e80057-d57d-4c87-96f5-3627646dbdfd"/>
-  > <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/7928523b-9abf-4dfc-85b2-81f07ba1c832"/>
-  > <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/1d80b5bb-6952-4ead-bfe6-d6f07951d9c7"/>
-  > <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/1db71afe-c62f-49f2-8c2b-14303c7b3a54"/>
+  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/69e80057-d57d-4c87-96f5-3627646dbdfd"/>
+  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/7928523b-9abf-4dfc-85b2-81f07ba1c832"/>
+  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/1d80b5bb-6952-4ead-bfe6-d6f07951d9c7"/>
+  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/1db71afe-c62f-49f2-8c2b-14303c7b3a54"/>
   <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/1e5224a5-65f2-4e01-a5ab-4fa3a25d5357"/>
-  ![image](https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/023af6eb-b905-4bb9-84cb-8adce626e723)
+  <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/023af6eb-b905-4bb9-84cb-8adce626e723"/>
 
 </div>
 
