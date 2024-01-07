@@ -12,7 +12,7 @@
 ## 💻 개발 환경
 - IDE: Android Studio
 - 버전 관리 : Github
-- 언어: xml, java language
+- 언어: Xml, Java
 - 디자인 : [Figma](https://www.figma.com/file/YdFEfrXlDCdXq8CbCL3lyd/Untitled?type=design&node-id=0-1&mode=design&t=lAR2CyrmJtbIJwu1-0)
 
 ## 🏫 앱 초기화면
