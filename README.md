@@ -1,5 +1,8 @@
 ## Diet-management-app-Project
 
+## 모바일 앱 화면 영상 명세서
+[Youtube lINK](https://youtu.be/jXrlabyKyJo)
+
 ## 앱 초기화면
 <div align="center">
   <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/f0289f9c-b21b-450a-8aa5-dcb228f6f53e"/>
@@ -19,3 +22,5 @@
 ![image](https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/fb4ad6a5-08f7-4be5-bd06-0f66ded03cbd)
 
 </div>
+
+## 식단 분석하기
