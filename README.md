@@ -2,9 +2,10 @@
 <br>
 
 ## 📹 모바일 앱 화면 영상 명세서 
-<div style="font-size: 30px;">
-<strong>[Youtube LINK](https://youtu.be/jXrlabyKyJo)</strong>
-</div>
+
+<strong style="font-size: 30px;">[Youtube LINK](https://youtu.be/jXrlabyKyJo)</strong>
+
+
 ## 앱 초기화면
 <div>
   <img src="https://github.com/Chochanguk/Diet-management-app-Project/assets/119058637/f0289f9c-b21b-450a-8aa5-dcb228f6f53e"/>
