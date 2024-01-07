@@ -1,6 +1,6 @@
-## Diet-management-app-Project
-
-## 모바일 앱 화면 영상 명세서
+## 📱 Diet-management-app-Project 
+<br>
+## 📹 모바일 앱 화면 영상 명세서 
 [Youtube LINK](https://youtu.be/jXrlabyKyJo)
 
 ## 앱 초기화면
